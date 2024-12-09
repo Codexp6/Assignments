@@ -1,0 +1,25 @@
+{
+  "name": "basic-js",
+  "version": "1.0.0",
+  "main": "anagram.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+"jest": {
+    "testMatch": [
+        "**/tests/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[tj]s?(x)"
+    ],
+    "rootDir": "./"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
